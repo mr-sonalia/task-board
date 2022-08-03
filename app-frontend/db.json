@@ -1,0 +1,307 @@
+{
+	"boards": [
+		{
+			"user-name": {
+				"first": "John",
+				"last": "Doe"
+			},
+			"email": "johndoe@email.com",
+			"profile-image": "",
+			"password": "johndoe",
+			"user-id": "usr_johndoe_001",
+			"board": [
+				{
+					"id": "list-1000",
+					"listTitle": "Daily groceries",
+					"taskList": [
+						{
+							"id": "1001",
+							"taskTitle": "Milk",
+							"taskDescription": "2 cartons",
+							"taskIsCompleted": false,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "1002",
+							"taskTitle": "Bread",
+							"taskDescription": "1 white, 1 wheat",
+							"taskIsCompleted": true,
+							"taskNotification": true,
+							"taskDeadline": "January 20, 2023"
+						}
+					]
+				},
+				{
+					"id": "list-2000",
+					"listTitle": "Front-End Project",
+					"taskList": [
+						{
+							"id": "2001",
+							"taskTitle": "Create Modal",
+							"taskDescription": "User details form modal in the about us page",
+							"taskIsCompleted": true,
+							"taskNotification": true,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "2002",
+							"taskTitle": "Debug card comp.",
+							"taskDescription": "Debug the card components in the landing page.",
+							"taskIsCompleted": true,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "2003",
+							"taskTitle": "Create projects page",
+							"taskDescription": "Create a projects page to showcase the projects that I have done.",
+							"taskIsCompleted": true,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "2004",
+							"taskTitle": "Create projects page",
+							"taskDescription": "Create a projects page to showcase the projects that I have done.",
+							"taskIsCompleted": true,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						}
+					]
+				},
+				{
+					"id": "list-5000",
+					"listTitle": "Back-End Project",
+					"taskList": [
+						{
+							"id": "2001",
+							"taskTitle": "Create Modal",
+							"taskDescription": "User details form modal in the about us page",
+							"taskIsCompleted": false,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "2002",
+							"taskTitle": "Debug card comp.",
+							"taskDescription": "Debug the card components in the landing page.",
+							"taskIsCompleted": false,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "2003",
+							"taskTitle": "Create projects page",
+							"taskDescription": "Create a projects page to showcase the projects that I have done.",
+							"taskIsCompleted": false,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "2004",
+							"taskTitle": "Create projects page",
+							"taskDescription": "Create a projects page to showcase the projects that I have done.",
+							"taskIsCompleted": false,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						},
+						{
+							"id": "2005",
+							"taskTitle": "Create projects page",
+							"taskDescription": "Create a projects page to showcase the projects that I have done.",
+							"taskIsCompleted": false,
+							"taskNotification": false,
+							"taskDeadline": "January 20, 2023"
+						}
+					]
+				}
+			]
+		},
+		{
+			"user-name": {
+				"first": "Jane",
+				"last": "Doe"
+			},
+			"email": "janedoe221@email.com",
+			"profile-image": "",
+			"password": "apples&oranges",
+			"user-id": "usr_jane_001",
+			"board-id": "my-board-002"
+		}
+	],
+	"board": [
+		{
+			"id": "list-2000",
+			"listTitle": "Front-End Project",
+			"taskList": [
+				{
+					"id": "2001",
+					"taskTitle": "Create Modal",
+					"taskDescription": "User details form modal in the about us page",
+					"taskIsCompleted": true,
+					"taskNotification": true,
+					"taskDeadline": "January 20, 2023"
+				},
+				{
+					"id": "2002",
+					"taskTitle": "Debug card comp.",
+					"taskDescription": "Debug the card components in the landing page.",
+					"taskIsCompleted": true,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				},
+				{
+					"id": "2003",
+					"taskTitle": "Create projects page",
+					"taskDescription": "Create a projects page to showcase the projects that I have done.",
+					"taskIsCompleted": true,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				},
+				{
+					"id": "2004",
+					"taskTitle": "Create projects page",
+					"taskDescription": "Create a projects page to showcase the projects that I have done.",
+					"taskIsCompleted": true,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				}
+			]
+		},
+		{
+			"id": "list-5000",
+			"listTitle": "Back-End Project",
+			"taskList": [
+				{
+					"id": "2001",
+					"taskTitle": "Create Modal",
+					"taskDescription": "User details form modal in the about us page",
+					"taskIsCompleted": false,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				},
+				{
+					"id": "2002",
+					"taskTitle": "Debug card comp.",
+					"taskDescription": "Debug the card components in the landing page.",
+					"taskIsCompleted": false,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				},
+				{
+					"id": "2003",
+					"taskTitle": "Create projects page",
+					"taskDescription": "Create a projects page to showcase the projects that I have done.",
+					"taskIsCompleted": false,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				},
+				{
+					"id": "2004",
+					"taskTitle": "Create projects page",
+					"taskDescription": "Create a projects page to showcase the projects that I have done.",
+					"taskIsCompleted": false,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				},
+				{
+					"id": "2005",
+					"taskTitle": "Create projects page",
+					"taskDescription": "Create a projects page to showcase the projects that I have done.",
+					"taskIsCompleted": false,
+					"taskNotification": false,
+					"taskDeadline": "January 20, 2023"
+				}
+			]
+		},
+		{
+			"id": "list-b902dc7e-61f4-44e6-a279-a3bb1a02f1f0",
+			"listTitle": "Test List",
+			"taskList": []
+		}
+	],
+	"lists": [
+		{
+			"listID": "list-2000",	
+			"id": "2001",
+			"taskTitle": "Create Modal",
+			"taskDescription": "User details form modal in the about us page",
+			"taskIsCompleted": true,
+			"taskNotification": true,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-2000",
+			"id": "2002",
+			"taskTitle": "Debug card comp.",
+			"taskDescription": "Debug the card components in the landing page.",
+			"taskIsCompleted": true,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-2000",
+			"id": "2003",
+			"taskTitle": "Create projects page",
+			"taskDescription": "Create a projects page to showcase the projects that I have done.",
+			"taskIsCompleted": true,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-2000",
+			"id": "2004",
+			"taskTitle": "Create projects page",
+			"taskDescription": "Create a projects page to showcase the projects that I have done.",
+			"taskIsCompleted": true,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-5000",
+			"id": "5001",
+			"taskTitle": "Create Modal",
+			"taskDescription": "User details form modal in the about us page",
+			"taskIsCompleted": false,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-5000",
+			"id": "5002",
+			"taskTitle": "Debug card comp.",
+			"taskDescription": "Debug the card components in the landing page.",
+			"taskIsCompleted": false,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-5000",
+			"id": "5003",
+			"taskTitle": "Create projects page",
+			"taskDescription": "Create a projects page to showcase the projects that I have done.",
+			"taskIsCompleted": false,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-5000",
+			"id": "5004",
+			"taskTitle": "Create projects page",
+			"taskDescription": "Create a projects page to showcase the projects that I have done.",
+			"taskIsCompleted": false,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		},
+		{
+			"listID": "list-5000",
+			"id": "5005",
+			"taskTitle": "Create projects page",
+			"taskDescription": "Create a projects page to showcase the projects that I have done.",
+			"taskIsCompleted": false,
+			"taskNotification": false,
+			"taskDeadline": "January 20, 2023"
+		}
+	]
+}

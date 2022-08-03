@@ -1,0 +1,3 @@
+{
+	"/api/board/:id/taskList": "/api/lists/:id"
+}

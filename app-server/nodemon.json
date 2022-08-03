@@ -1,0 +1,15 @@
+{
+	"watch": [
+		"controllers/",
+		"model/",
+		"tests/",
+		"app.ts"
+	],
+	"ignore": [
+		".git",
+		"node_modules/**/node_modules"
+	],
+	"verbose": true,
+	"ext": "ts",
+	"exec": "clear && ts-node index.ts"
+}
