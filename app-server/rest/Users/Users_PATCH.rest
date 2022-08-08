@@ -1,0 +1,8 @@
+### Update user password
+PATCH http://localhost:4000/api/users HTTP/1.1
+content-type: application/json
+
+{
+	"email": "sonaliayash@gmail.com", 
+	"password": "sonaliayash1234"
+}

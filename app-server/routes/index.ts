@@ -1,5 +1,7 @@
 /** @format */
 
-import blogsRouter from "./blogsRoute";
+import loginRouter from "./loginRoute";
+import tasklistRouter from "./tasklistRoutes";
+import userRouter from "./userRoutes";
 
-export { blogsRouter };
+export { loginRouter, tasklistRouter, userRouter };

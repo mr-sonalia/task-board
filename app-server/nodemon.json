@@ -1,9 +1,10 @@
 {
 	"watch": [
-		"controllers/",
-		"model/",
+		"routes/",
+		"models/",
 		"tests/",
-		"app.ts"
+		"app.ts",
+		"index.ts"
 	],
 	"ignore": [
 		".git",

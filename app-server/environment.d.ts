@@ -8,6 +8,7 @@ declare global {
 			MONGODB_PASSWORD: string;
 			MONGODB_URI: string;
 			MONGODB_TEST_URI: string;
+			SALT_ROUNDS: number;
 		}
 	}
 }
