@@ -1,0 +1,40 @@
+{
+  "name": "task-board",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "watch": "nodemon --watch ./next.config.js --exec && npm run dev",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "json-server --watch db.json --port 8080"
+  },
+  "dependencies": {
+    "@mantine/core": "^5.0.3",
+    "@mantine/dates": "^5.0.3",
+    "@mantine/form": "^5.0.3",
+    "@mantine/hooks": "^5.0.3",
+    "@mantine/next": "^5.0.3",
+    "@mantine/notifications": "^5.0.3",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^0.27.2",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "react-redux": "^8.0.1",
+    "redux-thunk": "^2.4.1",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.33",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.4",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.51.0",
+    "typescript": "4.6.4"
+  }
+}
