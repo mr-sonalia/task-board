@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable", "esnext", "WebWorker"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+			"@/*": ["./*"],
+			"@/utils/*": ["./utils/*"],
+			"@/store/*": ["./store/*"],
+			"@/components/*": ["./components/*"],
+			"@/scss/*": ["./scss/*"],
+			"@/hooks/*": ["./hooks/*"],
+			"@/styles/*": ["./styles/*"],
+		},
+    "baseUrl": "."
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/workers/pomodoro.worker.ts"],
+  "exclude": ["node_modules"]
+}
